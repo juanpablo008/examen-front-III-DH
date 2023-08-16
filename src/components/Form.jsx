@@ -58,7 +58,7 @@ const Form = () => {
                     <input value={color} onChange={(e) => handleChange(e, setColor)} id="color" type="text" placeholder="Color favorito (#HEX)" />
                 </div>
 
-                <button className="flex justify-center bg-slate-400 px-10" type="submit">Enviar</button>
+                <button className="flex justify-center bg-slate-400 px-10 font-semibold" type="submit">Enviar</button>
                 {showAlert && <Alert msg={"Por favor chequea que la información sea correcta"} />}
             </form>
 
